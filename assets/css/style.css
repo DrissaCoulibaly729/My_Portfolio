@@ -12,19 +12,20 @@
 @import url('https://fonts.googleapis.com/css2?famille =Clicker + Script&famille =Poppins: wght @ 200; 300; 400; 500; 600;700&afficher = swap');
 :root
 {
-    --bg-black-900: #151515;
-    --bg-black-100: #222222;
-    --bg-black-50: #393939;
-    --text-black-900: #ffffff;
-    --text-black-700: #e9e9e9;
-}
-body.dark
-{
     --bg-black-900: #f2f2fc;
     --bg-black-100: #fdf9ff;
     --bg-black-50: #e8dfec;
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
+}
+body.dark
+{
+
+    --bg-black-900: #151515;
+    --bg-black-100: #222222;
+    --bg-black-50: #393939;
+    --text-black-900: #ffffff;
+    --text-black-700: #e9e9e9;
 }
 h4 a{
     text-decoration: underline;
@@ -395,7 +396,7 @@ h3.my-profession
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 20px;
+    right: -10px;
     bottom: -40px;
 }
 .home-img::before
